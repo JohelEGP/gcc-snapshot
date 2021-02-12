@@ -1,0 +1,10 @@
+name: 'GCC Snapshot'
+description: 'Sets up the latest GCC snapshot ready-to-use.'
+inputs:
+  cache:
+    description: 'Whether to use @actions/cache for the snapshot. `true` (default) or `false`.'
+    required: false
+    default: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

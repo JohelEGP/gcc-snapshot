@@ -1,0 +1,34 @@
+{
+  "name": "gcc-snapshot",
+  "version": "1.0.0",
+  "description": "GitHub Action that sets up the latest GCC snapshot ready-to-use.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johelegp/gcc-snapshot.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Action",
+    "GCC",
+    "Snapshot"
+  ],
+  "author": "Johel Ernesto Guerrero Peña",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/johelegp/gcc-snapshot/issues"
+  },
+  "homepage": "https://github.com/johelegp/gcc-snapshot#readme",
+  "dependencies": {
+    "@actions/cache": "^1.0.6",
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0"
+  }
+}
