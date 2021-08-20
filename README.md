@@ -27,5 +27,5 @@ jobs:
     steps:
       - uses: johelegp/gcc-snapshot@v1 # This action.
       - uses: actions/checkout@v2
-      - uses: johelegp/modern-cmake-buildsystem@v1
-```
+      - uses: johelegp/modern-cmake-buildsystem@
+```https://www.snapchat.com/add/hhh4t3
